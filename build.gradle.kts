@@ -23,12 +23,8 @@ plugins {
 
 java.sourceCompatibility = JavaVersion.VERSION_17
 
-allOpen {
-    annotation("com.starter.core.common.annotations.AllOpen")
-}
-
 allprojects {
-    group = "com.starter"
+    group = "com.sungsu.community"
     version = "1.0.0-SNAPSHOT"
 
     repositories {
@@ -165,7 +161,7 @@ subprojects {
         annotation("jakarta.persistence.Entity")
         annotation("jakarta.persistence.MappedSuperclass")
         annotation("jakarta.persistence.Embeddable")
-        annotation("com.starter.core.common.annotations.NoArg")
+        annotation("com.sungsu.community.core.common.annotations.NoArg")
         invokeInitializers = true
     }
 
@@ -173,7 +169,7 @@ subprojects {
         annotation("jakarta.persistence.Entity")
         annotation("jakarta.persistence.MappedSuperclass")
         annotation("jakarta.persistence.Embeddable")
-        annotation("com.starter.core.common.annotations.AllOpen")
+        annotation("com.sungsu.community.core.common.annotations.AllOpen")
     }
 }
 

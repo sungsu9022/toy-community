@@ -4,16 +4,16 @@ services:
     platform: linux/x86_64
     image: mysql:8
     restart: always
-    container_name: starter-rdb
+    container_name: community-rdb
     command:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: starter
-      MYSQL_USER: starter
-      MYSQL_PASSWORD: starter
+      MYSQL_ROOT_PASSWORD: community
+      MYSQL_DATABASE: community
+      MYSQL_USER: community
+      MYSQL_PASSWORD: community
     ports:
-      - 3306:3306
+      - 3307:3306
     volumes:
       - ./db/mysql/data:/var/lib/mysql

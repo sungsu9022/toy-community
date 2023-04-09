@@ -1,6 +1,6 @@
 tasks {
     application {
-        mainClass.set("com.starter.api.ApiApplicationKt")
+        mainClass.set("com.sungsu.community.api.ApiApplicationKt")
     }
 
     bootJar {

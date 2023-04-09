@@ -23,7 +23,7 @@ plugins.apply("com.github.node-gradle.node")
 
 tasks {
     application {
-        mainClass.set("com.starter.admin.AdminApplicationKt")
+        mainClass.set("com.sungsu.community.admin.AdminApplicationKt")
     }
 
     bootJar {

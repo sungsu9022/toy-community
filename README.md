@@ -1,4 +1,4 @@
-# Kotlin-spring-multi-module-starter
+# Toy-Community Application
 
 ## Tech Stack
 ### Back-end

@@ -1,6 +1,6 @@
-rootProject.name = 'starter'
+rootProject.name = 'community'
 
-include 'core'
-include 'api'
-include 'admin'
+include('core')
+include('api')
+include('admin')
 
